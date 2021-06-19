@@ -1,6 +1,6 @@
 import React from 'React';
 import 'bulma/css/bulma.css';
-import './Navabr.css';
+import './Navbar.css';
 
 function Navbar (props){
     return(
@@ -53,14 +53,7 @@ function Navbar (props){
             <div className='navbar-end'>
                 <div className='navbar-items'>
                     <div className='buttons'>
-                        {/* <a className='button is-primary'>
-                            <strong>Sign Up</strong>
-                        </a>
-                        <a className='button is-light'>
-                            Log In
-                        </a> */}
-                        <CoolButton className="is-info">Login</CoolButton>
-                        <CoolButton className="is-primary">Sign Up</CoolButton>
+        
                     </div>
                 </div>
             </div>
